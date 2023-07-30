@@ -1,4 +1,4 @@
-create table if not exists trade(
+create table if not exists trade (
     trade_id serial not null primary key,
     buy_customer_id int not null,
     buy_order_id int not null,

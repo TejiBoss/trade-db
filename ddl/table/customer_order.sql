@@ -1,4 +1,4 @@
-create table if not exists customer_order(
+create table if not exists customer_order (
     order_id serial not null primary key,
     customer_id int not null,
     order_type varchar(5) not null,
